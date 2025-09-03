@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detail Produk</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>TokoSaya</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="checkout.html">Keranjang</a>
+    </nav>
+  </header>
+
+  <section class="product-detail">
+    <img id="product-img" src="images/product1.jpg" alt="Produk">
+    <div class="info">
+      <h2 id="product-name">Produk</h2>
+      <p id="product-price">$0</p>
+      
+      <label>Storage:</label>
+      <select id="storage">
+        <option value="256GB">256GB</option>
+        <option value="512GB">512GB</option>
+        <option value="1TB">1TB</option>
+      </select>
+
+      <label>Warna:</label>
+      <select id="color">
+        <option>Hitam</option>
+        <option>Putih</option>
+        <option>Biru</option>
+        <option>Merah</option>
+        <option>Hijau</option>
+        <option>Emas</option>
+        <option>Perak</option>
+      </select>
+
+      <button onclick="addToCart()">Tambah ke Keranjang</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 TokoSaya</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
